@@ -1,0 +1,47 @@
+:root {
+    /* colors */
+    --color-primary: #6341c5;
+    --color-primary-dark: #4b2ea3;
+    --color-success: #22c55e;
+    --color-success-dark: #16a34a;
+    --color-danger: #ef4444;
+    --color-danger-dark: #dc2626;
+
+    --color-primary-hover: #f5f3ff;
+    --color-primary-active: #e5e2ee;
+    --color-input-border: #e5e2ee;
+    --color-bg-light: #f3f0ff;
+    --color-bg-light-hover: #e9e5ff;
+    --color-text: #333;
+    --color-border: #ccc;
+    --color-error: #ff4d4f;
+    --color-border-light: #e6e1ff;
+    --color-text-muted: #888;
+
+    /* responsiveness */
+    --bp-sm: 480px;
+    --bp-md: 768px;
+    --bp-lg: 1024px;
+  
+    /* spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 12px;
+    --space-lg: 20px;
+    --space-xl: 40px;
+  
+    /* radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 10px;
+  
+    /* shadow */
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.05);
+
+    /* font */
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 20px;
+  }

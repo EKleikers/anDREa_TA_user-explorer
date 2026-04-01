@@ -1,0 +1,17 @@
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: var(--color-bg-light);
+}
+
+@media (min-width: 768px) { 
+  .toolbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

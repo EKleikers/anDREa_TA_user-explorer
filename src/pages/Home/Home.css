@@ -1,0 +1,46 @@
+.home__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home__header-title {
+    margin: 0;
+  }
+  
+  .home__icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 40px;
+    height: 40px;
+  
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  
+    transition: background-color 0.2s ease, transform 0.15s ease;
+  }
+  
+  .home__icon-button svg {
+    font-size: 20px;
+    color: var(--color-primary);
+  }
+  
+  .home__icon-button:hover {
+    background-color: var(--color-primary-hover);
+    transform: scale(1.1);
+  }
+  
+  .home__icon-button:active {
+    transform: scale(0.95);
+  }
+
+  .home__empty-state {
+    text-align: center;
+    margin-top: var(--space-xl); 
+    color: var(--color-text-muted); 
+    font-size: var(--font-size-lg); 
+  }

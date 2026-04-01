@@ -1,0 +1,122 @@
+.user-card {
+    max-width: 600px;
+    margin: var(--space-xl) auto;
+    padding: var(--space-lg);     
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* header */
+  .user-card__header {
+    /*
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-lg); 
+    margin-bottom: var(--space-sm);
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    
+  }
+  
+  .user-card__header img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-primary);
+  }
+  
+  .user-card__header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .user-card__title {
+    margin: var(--space-md);
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  
+  .user-card__email {
+    margin: 0 15px;
+    font-size: var(--font-size-md); 
+    color: var(--color-text-muted); 
+  }
+
+  /* info */
+  .user-card__info {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: var(--space-sm) var(--space-md); 
+    margin-top: var(--space-sm);
+  }
+  
+  .user-card__info p {
+    margin: 0;
+  }
+  
+  /* labels */
+  .user-card__label {
+    color: var(--color-text-muted, #999); 
+    font-weight: 500;
+  }
+  
+  /* address */
+  .user-card__address-label {
+    margin-top: var(--space-md);
+    display: block;
+    color: var(--color-text-muted, #999);
+    font-weight: 500;
+  }
+  
+  .user-card__address {
+    margin: var(--space-sm) 0 var(--space-lg);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-light);
+    line-height: 1.6;
+  }
+  
+  .user-card__address p {
+    padding-left: var(--space-sm);
+    margin: 0 0 var(--space-xs) 0;
+  }
+  
+  
+  /* buttons */
+  .user-card__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-md); 
+    margin-top: var(--space-lg);
+  }
+  
+  
+  /* responsive */
+  @media (max-width: 600px) {
+    .user-card {
+      padding: 20px;
+    }
+  
+    .user-card__info {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
+  @media (min-width: 768px) {
+    .user-card__header {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  
