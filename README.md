@@ -110,7 +110,7 @@ The space + dot ( .) ensures that the repository is cloned directly into the cur
 5.	From within the project folder run:   
 `npm install` 
 6.	Start the local server, run:  
-`npm run dev`
+`npm run dev`  
 The server will automatically stop when you close the terminal or stop the process
 7.	By default, the application will be available at:  
 `http://localhost:5173`  
